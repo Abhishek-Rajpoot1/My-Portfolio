@@ -66,6 +66,7 @@ nav ul li a {
 }
 #homeimg{
    border-radius: 70%;
+   min-width: 150px;
    max-width:150px;
    height:150px;
     border: 2px solid black;
@@ -309,3 +310,4 @@ footer {
         display: block;
     }
 }
+
