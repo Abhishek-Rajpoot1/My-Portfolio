@@ -66,11 +66,10 @@ nav ul li a {
 }
 #homeimg{
    border-radius: 70%;
-   min-width: 150px;
-   max-width:150px;
+   min-width: 140px;
+   max-width:140px;
    height:150px;
-    border: 2px solid black;
-    /* margin-right: -70px; */
+   border: 2px solid rgb(217, 210, 231);
     margin-left: 20px;
     overflow: hidden; 
     
@@ -310,5 +309,6 @@ footer {
         display: block;
     }
 }
+
 
 
