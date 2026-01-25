@@ -71,7 +71,7 @@ nav ul li a {
    height:150px;
     border: 2px solid black;
     /* margin-right: -70px; */
-    margin-left: 50px;
+    margin-left: 20px;
     overflow: hidden; 
     
 }
@@ -310,4 +310,5 @@ footer {
         display: block;
     }
 }
+
 
