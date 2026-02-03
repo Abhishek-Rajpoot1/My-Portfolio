@@ -309,6 +309,15 @@ footer {
         display: block;
     }
 }
+/* Footer */
+ footer .linkdin-logo{
+  max-width: 40px;
+  max-height: 40px;
+  border-radius:10px;
+  /* border:2px solid black; */
+}
+
+
 
 
 
