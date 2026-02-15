@@ -69,8 +69,8 @@ nav ul li a {
    min-width: 140px;
    max-width:140px;
    height:150px;
-   border: 2px solid rgb(217, 210, 231);
-    margin-left: 20px;
+    border: 2px solid rgb(217, 210, 231);
+    margin-left:10px;
     overflow: hidden; 
     
 }
@@ -93,24 +93,24 @@ nav ul li a {
 .btn:hover{
     background-color: #4a08f2;
 }
-/* Aout */
+/* About */
 
 .about-card{
- border-radius: 20%;
-   max-width:150px;
+ border-radius: 10%;
+   max-width:200px;
    height:auto;
     margin: auto;
     overflow: hidden; 
-    background-color: #1a1425e4;
-    box-shadow :5px -10px 0px rgba(60, 41, 188, 0.625);
+    /* background-color: #1a1425e4; */
+    /* box-shadow :5px -10px 0px rgba(60, 41, 188, 0.625); */
+    box-shadow :2px -2px 0px 0px rgb(217, 216, 225);
     transition: transform 0.3s ease;
-    color:#67589d
+    color:#391ba6
 }
 .about-card img{
-    /* border-radius: 70%; */
     width :100%;
     height: 100%;
-   border-radius: 20%;
+   border-radius: 0%;
     
 }
 .about h2{
@@ -123,47 +123,7 @@ nav ul li a {
 .about div{
     margin-top: 20px;
 }
-/* MY Work */
-.works .work-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    justify-items: center;
-    gap: 20px;
-    margin-top: 40px;
-}
 
-.work-card {
-    margin-top: 20px;
-    padding: 20px;
-    /* border: 1px solid #0d012a; */
-    border-radius: 10px;
-    background-color: #010c1c;
-    box-shadow :-8px 5px 0px rgb(39, 37, 56)  ;
-    transition: transform 0.3s ease;
-} 
-.works  h2{
-    /* background-color: #04000d; */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 255, 0.155), rgba(0, 0, 0, 0));
-    color:#9a90f6;
-    /* text-decoration:underline; */
-}
-.work-card h3 {
-    color: blueviolet;
-}
-
-
-.work-card:hover {
-    transform: scale(1.05);
-} 
-.work-card a{
-    font-size: 14px;
-    text-decoration: none;
-    color:#043886;
-}
-.work-card a:hover {
-    text-decoration: underline;
-    color: #367be3;
-}
 /* For  Project */
 .projects .project-grid {
     display: grid;
@@ -177,8 +137,11 @@ nav ul li a {
     /* border: 1px solid #ddd; */
     border-radius: 10px;
     background-color: #010c1c;
-    box-shadow :-8px 5px 0px rgb(39, 37, 56)  ;
+    box-shadow :0px 0px 2px rgb(39, 37, 56);
     transition: transform 0.3s ease;
+} 
+.project-card ul {
+   text-align:left;
 } 
 .projects  h2{
     /* color: #0c0171;
@@ -203,6 +166,37 @@ nav ul li a {
     text-decoration: underline;
   color: #367be3;
 }
+/* Vedio Section */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  /* background: rgba(0,0,0,0.7); */
+}
+
+.modal-content {
+  background:transparent;
+  width: 80%;
+  max-width: 800px;
+  margin: 9% auto;
+  padding: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+}
+
+.close {
+  margin-top:10px;
+  font-size: 28px;
+  cursor: pointer;
+  float: right;
+}
+.demo-btn{
+   cursor: pointer;  
+}
+
 
 /* For Skills */
 .skill .skill-grid {
@@ -217,7 +211,7 @@ nav ul li a {
     /* border: 1px solid #ddd; */
     border-radius: 10px;
     background-color: #010c1c;
-    box-shadow :-8px 5px 0px rgb(39, 37, 56)  ;
+    box-shadow :0px 0px 2px rgb(39, 37, 56);
     transition: transform 0.3s ease;
 }
 .skill-card ol{
@@ -244,6 +238,126 @@ nav ul li a {
     text-decoration: underline;
   color: #367be3;
 }
+/* Exprience */
+.Exprience  h2{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 255, 0.155), rgba(0, 0, 0, 0));
+    color:#9a90f6;
+}
+
+.section-title {
+    font-size: 13pt;
+    font-style: initial;
+    text-transform: uppercase;
+    border-top: 1px solid #000000;
+    margin-bottom: 6px;
+}
+
+/* ROWS */
+.row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11pt;
+}
+.left{
+    color:rgb(199, 191, 226);
+    border-bottom:2px solid rgb(11, 5, 47);
+}
+.Exprience p{
+    text-align: justify;
+}
+/* For Education */
+.education .education-grid {
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.education-card {
+    margin-top: 20px;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    background-color: #010c1c;
+    box-shadow :0px 0px 2px rgb(39, 37, 56);
+    transition: transform 0.3s ease;
+}
+
+.education  h2{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 255, 0.155), rgba(0, 0, 0, 0));
+    color:#9a90f6;
+}
+.education-card h3 {
+    color: blueviolet;
+}
+
+.education-card:hover {
+    transform: scale(1.05);
+}
+.education-card a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#043886;
+}
+.education-card a:hover {
+    text-decoration: underline;
+  color: #367be3;
+}
+
+/* Certificate / Achievements */
+.Achievements .Achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.Achievements-card {
+    
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #010c1c;
+    box-shadow :0px 0px 2px rgb(39, 37, 56)  ;
+    transition: transform 0.3s ease;
+} 
+.Achievements .certificate {
+    padding: 20px;
+    text-align:start;
+    transition: transform 0.3s ease;
+} 
+.Achievements  h2{
+    /* background-color: #04000d; */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 255, 0.155), rgba(0, 0, 0, 0));
+    color:#9a90f6;
+    /* text-decoration:underline; */
+}
+.Achievements  h4{
+    text-align: start;
+    padding-left: 20px;
+    text-decoration:underline;
+}
+.Achievements b{
+    font-size: 25px;
+}
+.Achievements-card h3 {
+    color: blueviolet;
+    text-decoration:underline;
+}
+
+
+.Achievements-card:hover {
+    transform: scale(1.02);
+} 
+.Achievements-card a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#043886;
+}
+.Achievements a:hover {
+    text-decoration: underline;
+  color: #367be3;
+}
+
 
 /* Contact Form */
 form {
@@ -278,14 +392,6 @@ button:hover {
     background-color: #e65c00;
 }
 
-
-/* Footer */
-footer {
-    padding: 20px;
-    background-color: #1e1e1e;
-    color: #fff;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
     nav ul {
@@ -301,6 +407,7 @@ footer {
         
     }
 /*  */
+
     nav ul.show {
         display: flex;
     }
@@ -308,16 +415,40 @@ footer {
     .menu-toggle {
         display: block;
     }
+   
+   
 }
 /* Footer */
- footer .linkdin-logo{
+footer {
+    padding:20px;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+.footcont{
+    padding-top: 40px;
+    display: flex;
+    justify-content:flex-start;
+    gap: 20px;
+}
+.footcont .foot-logo{
+
   max-width: 40px;
   max-height: 40px;
-  border-radius:10px;
+  border-radius:50%;
   /* border:2px solid black; */
+}
+.footcont .foot-logo:hover {
+  transform: translateY(-4px);
+  transition: 0.3s;
+  opacity: 0.8;
+  
 }
 
 
 
+footer a{
+    /* justify-content: center; */
+    
+}
 
 
