@@ -1,7 +1,6 @@
 // Mobile Menu Toggle
 const menuToggle = document.getElementById('menu-toggle');
 const navUl = document.querySelector('nav ul');
-
 menuToggle.addEventListener('click', () => {
     navUl.classList.toggle('show');
 });
@@ -14,7 +13,7 @@ menuToggle.addEventListener('click', () => {
 //     form.reset();
 // });
 
-
+// Email Selectionon
 const form = document.getElementById('contact-form');
 
 form.addEventListener('submit', function(e) {
@@ -32,4 +31,22 @@ form.addEventListener('submit', function(e) {
         console.log(error);
     });
 });
+
+// Vedio section
+
+function openVideo(btn) {
+  const videoUrl = btn.getAttribute("data-video");
+  const frame = document.getElementById("videoFrame");
+
+  frame.src = videoUrl;
+  document.getElementById("videoModal").style.display = "block";
+}
+
+function closeVideo() {
+  const frame = document.getElementById("videoFrame");
+  frame.src = ""; // stop video
+  document.getElementById("videoModal").style.display = "none";
+}
+
+
 
