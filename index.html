@@ -28,17 +28,17 @@
             <p> Java Full Stack Developer | Java | HTML | CSS | JS</p>
             <a href="#works" class="btn">View My Work</a>
         </div>
-        <div id="homeimg"><img src="Images/myimg.jpg"></div>
+        <div id="homeimg"><img src="Images/myimg.png"></div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="section about">
         <h2>About Me</h2> 
          <div class="about-card">
-              <img src="Images/myimg.jpg">
-              <p>Java Fullstack Devloper</p>
+              <img src="Images/myimg.png">
+              <p>Java Fullstack Developer</p>
             </div>
-            <div>
+            <div class="about-cont">
         <p>
            I am <b>Abhishek Rajpoot</b>, a motivated and 
            detail-oriented Java Full Stack Developer (Fresher) with
@@ -58,66 +58,73 @@
              and contribute to the growth of the organization.
         </p></div>
     </section>
-    <!-- Work Section -->
-   <section id="works">
-    <!-- works -->
-   <section id="works" class="section works">
-      <h2>My Works</h2>
-        <div class="work-grid">
-            <div class="work-card">
-                <h3>1. Leet Code </h3>
-                <p>I hava solved 100+ Question on Leet Code</p>
-                <p>50+ Easy Question</p>
-                <p>30+ Medium Question</p>
-                <p>20+ Hard Question</p>
-                <a href="https://leetcode.com/u/AbhishekRajpoot3048/" target="_blank" >View Solution</a>
-
-                
-            </div>
-            <div class="work-card">
-                <h3> 2. Hacker Rank </h3>
-                <p> ⭐ ⭐ Coder</p> 
-                <br>
-                <a href="https://www.hackerrank.com/profile/Abhishekrajpoot" target="_blank" >View Solution</a>
-            </div>
-            <div class="work-card">
-                <h3>3. Buildind Websites  </h3>
-                <p>I hava builded 5 clone of website like Amazon , flipcard ,Analysis Infotech</p>
-                <p>I have builded 3 full stack Websites like Online voting System , rapib mart, Online exmination, Libarary management System</p>
-                 <p>Currently i am working on some other websites like online room booking System, Electronic shop and so on.</p>
-            </div>
-            </div>
-            <div>
-                <br><br>
-                <a href="#projects" class="btn">View My Projects</a>
-             </div>
-            </section>
+   
     <!-- Projects Section -->
     <section id="projects" class="section projects">
         <h2>My Projects</h2>
         <div class="project-grid">
             <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of project 1.</p>
-                <a href="#" target="_blank">View Project</a>
+                <h3> Library Management System | Java, JSP, JDBC, MySQL</h3><br>
+                <ul>
+                <li>Developed a web-based system to manage book issuing, returning, and fine calculation.</li>
+                 <li>Implemented Admin and Student modules using JSP and Servlets.</li>
+                 <li>Integrated MySQL using JDBC for persistent storage.</li>
+                  <li><b>Tecknology used :</b>Java, JSP, JDBC, MySQL  </li>
+
+                </ul><br>
+                📂 <a href="https://github.com/Abhishek-Rajpoot1/Library_Management/" target="_blank" rel="noopener noreferrer"> Source Code</a>
+             &nbsp;  &nbsp; &nbsp;  &nbsp; ▶️ <a class="demo-btn" data-video="https://www.youtube.com/embed/Dxo7Bda6efQ" onclick="openVideo(this)"> Demo Video</a>
             </div>
             <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Description of project 2.</p>
-                <a href="#" target="_blank">View Project</a>
-            </div>
+                <h3>Aqua Control <br> Java Swing / AWT, Core java ,MySQL</h3><br>
+                <ul>
+                <li><b>Aqua Control </b> is a java based full stack desktop application developed to manage water supply operation including customer
+                ,stock ,order, report and admin controls.</li>
+            <li><b>Tecknology used :</b>  Java Swing / AWT, Core java ,MySQL .</li>
+        </ul><br>
+        📂 <a href="https://github.com/Abhishek-Rajpoot1/AquaControl" target="_blank" rel="noopener noreferrer"> Source Code</a>
+             &nbsp;  &nbsp; &nbsp;  &nbsp; ▶️ <a class="demo-btn" data-video="https://www.youtube.com/embed/Dxo7Bda6efQ" onclick="openVideo(this)"> Demo Video</a>
+               
+         </div>
             <div class="project-card">
-                <h3>Project 3</h3>
-                <p>Description of project 3.</p>
-                <a href="#" target="_blank">View Project</a>
-                
+                <h3>Rapid Mart <br>Java Swing / AWT, Core java ,MySQL </h3><br>
+                <ul>
+                    <li>Developed a Java-based Inventory & Billing Management System using Swing (GUI).</li>
+<li>Implemented Product, Stock, Billing, and Account modules with menu-driven navigation.</li>
+
+<li>Features include Add / Update / View Product & Stock details.</li>
+
+<li>Integrated Billing module to generate and search invoices.</li>
+
+<li>Used JDBC for database connectivity and CRUD operations.</li>
+<li>Implemented Login system with Change Password & Logout functionality.</li>
+<li>Designed a user-friendly desktop interface using Java Swing components.</li>
+<li>Followed modular architecture with separate classes for each functionality.</li>
+<li>Improved data management efficiency by reducing manual record handling.</li>
+<li><b>Tecknology used :</b> Java Swing / AWT, Core java ,MySQL .</li>
+</ul><br>
+                📂 <a href="https://github.com/Abhishek-Rajpoot1/RapidMartapp" target="_blank" rel="noopener noreferrer"> Source Code</a>
+             &nbsp;  &nbsp; &nbsp;  &nbsp; ▶️ <a class="demo-btn" data-video="https://www.youtube.com/embed/Dxo7Bda6efQ" onclick="openVideo(this)"> Demo Video</a>
+               
             </div>
         </div>
     </section> 
     </section>
+    <!-- Vedio section -->
+     <div id="videoModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeVideo()">&times;</span>
+
+    <iframe id="videoFrame"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
     <!-- Skill Section -->
     <section id="skills" class="section skill">
-        <h2>Skills</h2>
+        <h2>Skills / Technologies</h2>
         <div class="skill-grid">
             <div class="skill-card">
                 <h3>Frontend Development</h3>
@@ -171,15 +178,86 @@
             </div>
             <div class="skill-card">
                 <h3>Git And Github</h3>
-                <p>• Repository creation & management<br>
-                   •Push, pull & commit using Git<br>
-                   • GitHub Pages deployment
+                <p> Repository creation & management<br>
+                   Push, pull & commit using Git<br>
+                   GitHub Pages deployment
                 </p>
                 <a href="https://github.com/Abhishek-Rajpoot1" target="_blank">Github</a>
             </div>
         </div>
     </section>
+ <!-- Exprience -->
+   <section id="Exprience" class="section Exprience">
+      <h2>Experience</h2>
+         <br>
+    <div class="row">
+        <div class="left">Softwer Intern</div>
+        <b >Analyze Infotech Pvt. Ltd.</b>
+        <div class="right">July 2025 - Sep 2025</div>
+        
+    </div><br>
+    <p>Developed an Online Examination System <b> “Skill Matrix” </b> using Java, JSP, Servlets, and MySQL. Implemented 
+student registration, MCQ-based exams, automatic evaluation, and real-time scoring. Strengthened skills in OOP, 
+secure web development, and JDBC database integration during industrial training.
+</p> </section>
+    <!-- Education Section -->
+      <section id="education" class="section education">
+        <h2>Education</h2>
+        <div class="education-grid">
+            <div class="education-card">
+                <h3>BCA (2024-2027)</h3>
+                <pre>Univercity : Univercity of Lucknow ,Locknow</pre>
+                <p>Degree : Bachler of computer Application (BCA) </p>
+                <pre>CGPA : 8.3 / 10  (Till 3'rd sem)</pre>
+                
+            </div>
+            <div class="education-card">
+                <h3>Class - X (2021)</h3>
+                <p>Collage : Anandi Devi Saraswati Vidya Mandir ,Naipalapur</p>
+                 <pre>Percentage : 87.75 %</pre>
+                
+            </div>
+            
+            <div class="education-card">
+                <h3>Class - XII (2023)</h3>
+                 <p>Collage : Anandi Devi Saraswati Vidya Mandir ,Naipalapur</p>
+                 <pre>Percentage : 79%</pre>
+               
+            </div>
+        </div>
+    </section>
+<!-- Certificate / Achievements-->
+   <section id="Achievements" class="section Achievements">
+      <h2>Certificate / Achievements</h2><br>
+      <h4>Data Structures & Algorithms</h4>
+      <div class="Achievements-grid">
+                <div class="Achievements-card">
+                <h3> Leet Code </h3>
+                <p><b>Solved 100+ Problem</b></p>
+                <p>50+ Easy Problem</p>
+                <p>30+ Medium Problem</p>
+                <p>20+ Hard Problem</p>
+                <a href="https://leetcode.com/u/AbhishekRajpoot3048/" target="_blank" >View Solution</a>
 
+                </div>
+           
+            <div class="Achievements-card">
+                <h3> Hacker Rank </h3>
+                <p> ⭐ ⭐ Coder</p> <br>
+                <a href="https://www.hackerrank.com/profile/Abhishekrajpoot" target="_blank" >View Solution</a>
+         </div>
+            </div>
+            <br>
+           <h4>Certification </h4>
+             <div class="certificate">
+               
+     1. Java Full Stack Training Certificate - Analyze Infotech (2025) <a href="">view </a><br>
+     2. Java Test Certificate - Knowledge Gate (2025) <a href="Images/java(basic).pdf">view </a><br>
+     3. Java (Basic) - HackerRank (2026)  <a href="https://www.hackerrank.com/certificates/18f61c9f3249">view </a><br>
+     
+    </div>
+         
+            </section>
     <!-- Contact Section -->
     <section id="contact" class="section contact">
         <h2>Contact Me</h2>
@@ -197,19 +275,22 @@
     <!-- Footer -->
     <footer>
         <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script>
-(function(){
-  emailjs.init("wPjE0GM2yckuQdgVO");
-})();
-</script>
+        <script>
+            (function(){
+                emailjs.init("wPjE0GM2yckuQdgVO");
+            })();
+        </script>
 
-        
-    <a  href="https://www.linkedin.com/in/abhishekrajpoot3048/"><img class="linkdin-logo" src="Images/linkdin.png" ></a>
-    <p> &copy; 2026 Abhishek Rajpoot. All rights reserved.</p> 
+<h3>Abhishek Rajpoot</h3>
+<p>Full Stack Developer</p>
+<div class="footcont">
+<div><a  href="https://www.linkedin.com/in/abhishekrajpoot3048/"><img class="foot-logo" src="Images/linkdin.png" alt="Linkdin"></a></div>
+<div><a  href="https://github.com/Abhishek-Rajpoot1/"><img class="foot-logo" src="Images/github.png" alt="Git" ></a></div>
+<div><a  href="https://leetcode.com/u/AbhishekRajpoot3048/"><img class="foot-logo" src="Images/leetcode.png"alt="Leetcode" ></a></div>
+<div><a  href="https://www.hackerrank.com/dashboard"><img class="foot-logo" src="Images/hackerrank.png" alt="Hackerrank" ></a></div>
+
+</div><br>
+<p> &copy; 2026 Abhishek Rajpoot. All rights reserved.</p> 
     </footer>
 </body>
 </html>
-
-
-
-
