@@ -127,7 +127,10 @@ nav ul li a {
 .about div{
     margin-top: 20px;
 }
-
+.about-cont p{
+    text-align: left;
+    padding-top: 9px;
+}
 /* For  Project */
 .projects .project-grid {
     display: grid;
@@ -454,6 +457,7 @@ footer a{
     /* justify-content: center; */
     
 }
+
 
 
 
