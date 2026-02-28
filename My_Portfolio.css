@@ -128,7 +128,7 @@ nav ul li a {
     margin-top: 20px;
 }
 .about-cont p{
-    text-align: left;
+    text-align: justify;
     padding-top: 5px;
 }
 /* For  Project */
@@ -457,6 +457,7 @@ footer a{
     /* justify-content: center; */
     
 }
+
 
 
 
