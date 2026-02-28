@@ -90,6 +90,10 @@ nav ul li a {
     text-decoration: none;
     border-radius: 5px;
 }
+.download{
+    min-width:150px;
+ 
+}
 .btn:hover{
     background-color: #4a08f2;
 }
@@ -450,6 +454,7 @@ footer a{
     /* justify-content: center; */
     
 }
+
 
 
 
